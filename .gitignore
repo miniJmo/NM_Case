@@ -243,3 +243,42 @@ gradle-app.setting
 *.hprof
 
 # End of https://www.toptal.com/developers/gitignore/api/java,gradle,webstorm,intellij
+
+# === Java build ===
+/bin/
+/build/
+/out/
+
+# === Gradle ===
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+gradle-app.properties
+gradle-app.iml
+gradle.properties
+
+# Gradle wrapper logs
+gradle/wrapper/gradle-wrapper.properties
+
+# === IntelliJ IDEA ===
+.idea/
+*.iml
+*.ipr
+
+# === VS Code ===
+.vscode/
+
+# === OS-specific ===
+.DS_Store
+Thumbs.db
+
+# === Logs and temp files ===
+*.tmp
+*.bak
+
+# === Local environment ===
+.env
+*.env
+
+# === Node/Frontend stuff (if any) ===
+node_modules/
+dist/
