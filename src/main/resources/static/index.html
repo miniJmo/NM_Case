@@ -14,42 +14,65 @@
         <div id="chatbox">
 
             <div class="post">
-                <p class="post__user">
-                <p class="post__new">NY: </p>user</p>
-                <p class="post__text">text</p>
-                <p class="post__time">time</p>
+                <span>
+                    <p class="post__new"></p>
+                    <p class="post__user">Jakob</p>
+                </span>
+                <p class="post__text">Hejsa, hvordan går det?</p>
+                <p class="post__time">10:00</p>
             </div>
 
             <div class="post">
-                <p class="post__user">
-                <p class="post__new">NY: </p>user</p>
-                <p class="post__text">text</p>
-                <p class="post__time">time</p>
+                <span>
+                    <p class="post__new"></p>
+                    <p class="post__user">Jakob</p>
+                </span>
+                <p class="post__text">Hejsa, hvordan går det?</p>
+                <p class="post__time">10:01</p>
             </div>
+
             <div class="post">
-                <p class="post__user">
-                <p class="post__new">NY: </p>user</p>
-                <p class="post__text">text</p>
-                <p class="post__time">time</p>
-            </div> 
-            <div class="post">
-            <p class="post__user">
-            <p class="post__new">NY: </p>user</p>
-            <p class="post__text">text</p>
-            <p class="post__time">time</p>
+                <span>
+                    <p class="post__new"></p>
+                    <p class="post__user">Jakob</p>
+                </span>
+                <p class="post__text">Har I hørt om Projektagenten?</p>
+                <p class="post__time">10:02</p>
             </div>
+
             <div class="post">
-                <p class="post__user">
-                <p class="post__new">NY: </p>user</p>
-                <p class="post__text">text</p>
-                <p class="post__time">time</p>
+                <span>
+                    <p class="post__new">NY: </p>
+                    <p class="post__user"> Jakob</p>
+                </span>
+                <p class="post__text">Jeg er en autogeneret besked</p>
+                <p class="post__time">10:04</p>
             </div>
+
+            <div class="post">
+                <span>
+                    <p class="post__new">NY: </p>
+                    <p class="post__user"> Jakob</p>
+                </span>
+                <p class="post__text">Jeg er en autogeneret besked</p>
+                <p class="post__time">10:04</p>
+            </div>
+
+            <div class="post">
+                <span>
+                    <p class="post__new">NY: </p>
+                    <p class="post__user">Jakob</p>
+                </span>
+                <p class="post__text">Har I hørt om Projektagenten?</p>
+                <p class="post__time">10:05</p>
+            </div>
+
         </div>
 
     </div>
-        <form class="chat__form", id="chat__form">
+        <form class="chat__form" id="chat__form">
             <span>
-                <input
+                <label for="usernameInput"></label><input
                     type="text"
                     name="userInput"
                     id="usernameInput"
@@ -57,11 +80,10 @@
                     autocomplete="off"
                     required
                 />
-                <input
+                <label for="textInput"></label><input
                     type="text"
                     name="msgInput"
                     id="textInput"
-                    autofocus="on"
                     placeholder="tekst"
                     autocomplete="off"
                     required

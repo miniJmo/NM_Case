@@ -17,6 +17,11 @@ h1 {
     width: max-content;
     height: max-content;
     max-width: 60%;
+    margin: 5px;
+}
+.post span {
+    display: flex;
+    justify-content: flex-start;
 }
 
 .post__time {
@@ -30,6 +35,11 @@ h1 {
 
 .post__user {
     font-size: 16px;
+}
+
+.post__new {
+    font-size: 16px;
+    color: darkred;
 }
 
 .chat {
