@@ -14,4 +14,4 @@ Windows:\
 `.\gradlew.bat clean build`\
 `.\gradlew.bat bootRun`
 
-The application will then be accessible on: <http::/localhost:8080>
+The application will then be accessible on: <http://localhost:8080>
