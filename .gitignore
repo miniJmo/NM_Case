@@ -256,9 +256,6 @@ gradle-app.properties
 gradle-app.iml
 gradle.properties
 
-# Gradle wrapper logs
-gradle/wrapper/gradle-wrapper.properties
-
 # === IntelliJ IDEA ===
 .idea/
 *.iml
