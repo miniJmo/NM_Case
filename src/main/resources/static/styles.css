@@ -52,7 +52,7 @@ h1 {
     scrollbar-width: thin;
     background: none;
     box-sizing: border-box;
-    border-radius: 20px;
+
     overflow-wrap: break-word;
 }
 
@@ -65,4 +65,22 @@ h1 {
     position: relative;
     box-sizing: border-box;
     padding: 0;
+}
+
+.chat__msgform span {
+    display: flex;
+    justify-content: space-between;
+}
+
+input[id='usernameInput'] {
+    width: 10%;
+    border: none;
+    border-radius: 3px;
+    margin: 5px;
+}
+input[id='textInput'] {
+    width: 80%;
+    border: none;
+    border-radius: 3px;
+    margin: 5px;
 }
